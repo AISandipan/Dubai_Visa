@@ -7,6 +7,10 @@ Initialize a new Node.js project:
 
 npm install express snowflake-sdk cors body-parser
 
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
+npm install axios
+
+
 Create a file, e.g. server.js, with content like below (adapt with your Snowflake credentials):
 
 // server.js
