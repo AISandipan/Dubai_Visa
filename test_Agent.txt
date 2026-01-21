@@ -1,0 +1,220 @@
+
+
+Step-by-Step: Build an AI Agent in Copilot Studio
+1. Sign In to Copilot Studio
+
+Go to Copilot Studio at copilotstudio.microsoft.com and sign in with your Microsoft work, school, or developer account.
+
+If your environment isn’t set up yet, you may be prompted to configure an environment first (admin might need to help).
+
+2. Start Creating Your Agent
+
+On the Copilot Studio home screen, you’ll see a prompt to create a new agent.
+
+Enter a name and description that clearly describe what the agent will do.
+Example: “Help employees find HR policies and answer onboarding questions.”
+
+This description tells the system what kind of AI assistant you want to build.
+
+3. Configure the Agent’s Basics
+
+Once created, you land on the agent’s Overview page.
+
+- On this page you can:
+
+Edit agent name and description
+
+Set instructions that guide how it responds
+
+Add suggested prompts users will see when they start chatting
+These help users know what to ask.
+
+4. Add Knowledge Sources
+
+Agents work best when they can pull from real data.
+- You can add:
+
+Public websites URLs with useful information
+
+Internal organization content (e.g., SharePoint, internal docs)
+
+Other structured knowledge sources
+
+Steps:
+
+Go to the Knowledge section.
+
+Click Add knowledge.
+
+Select a type (e.g., Public Website).
+
+Enter the URL and name the source.
+
+Save it.
+
+5. Define Skills & Behaviors
+
+Configure how the agent answers (tone, style, guardrails).
+
+Some advanced setups let you add tools or action connectors (e.g., integrate business systems or workflows).
+
+You can specify how it should handle user intents or error cases.
+
+6. Test Your Agent
+
+In Copilot Studio, use the test chat panel to try out your agent.
+
+Ask questions or give prompts similar to what users will ask in the real world.
+
+Refine knowledge and instructions based on test responses.
+
+7. Publish Your Agent
+
+Once you’re satisfied:
+
+Click Publish (usually at the top).
+
+Confirm the action.
+
+After successful publishing you can use:
+
+A demo site link to share and test externally
+
+Integration with Microsoft 365 Copilot or Teams so users in your organization can call the agent directly in chat
+
+Embedding into web apps or channels as supported
+
+
+8. Deploy & Share
+
+Share the published link with your team.
+
+If you integrated into M365 Copilot or Teams, users can @mention or select your agent when chatting.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+What We’re Going to Build
+
+A Simple AI Agent that:
+
+Greets the user
+
+Answers questions using a website or document
+
+Works in the Copilot Studio test chat
+
+No coding required.
+
+Step 1: Open Copilot Studio
+
+Go to https://copilotstudio.microsoft.com
+
+Sign in with your Microsoft account (work/school preferred)
+
+You should see the Copilot Studio home page.
+
+Step 2: Create a New Agent
+
+Click Create → New agent
+
+Fill in:
+
+Agent name: Simple Help Agent
+
+Description:
+
+This agent helps answer basic questions using provided information.
+
+Click Create
+
+Your agent is now created.
+
+Step 3: Add Basic Instructions (Very Important)
+
+Go to Overview or Settings
+
+Find Instructions / System message
+
+Paste this:
+
+You are a helpful and friendly assistant.
+Answer clearly and simply.
+If you don’t know the answer, say you don’t know.
+
+
+Click Save
+
+This controls how your agent behaves.
+
+Step 4: Add Knowledge (So the Agent Can Answer Questions)
+
+Let’s add one website (simplest option).
+
+Go to Knowledge
+
+Click Add knowledge
+
+Choose Public website
+
+Example URL (you can change later):
+
+https://learn.microsoft.com
+
+
+Name it: Microsoft Docs
+
+Click Add
+
+Now your agent can answer questions from that site.
+
+Step 5: Add Suggested Prompts (Optional but Helpful)
+
+Go to Suggested prompts
+
+Add examples like:
+
+“What is Microsoft Copilot?”
+
+“Explain Copilot Studio”
+
+“How does Copilot work?”
+
+These appear as clickable suggestions for users.
+
+Step 6: Test Your Agent
+
+Look for the Test chat panel (right side)
+
+Ask:
+
+“What is Copilot Studio?”
+
+“What is Microsoft Copilot?”
+
+If the agent responds → it’s working!
+
+If answers are weak:
+
+Add better websites
+
+Improve instructions
+
+Step 7: Publish the Agent
+
+Click Publish
+
+Confirm
+
+Your simple AI agent is now live!
+
+You can:
+
+Use the demo link
+
+Later connect it to Teams, websites, or M365
+
+
+
+
+
