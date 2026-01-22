@@ -1,0 +1,83 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "ExtraLarge",
+            "weight": "Bolder",
+            "text": "Pragmatic Stadium",
+            "horizontalAlignment": "Center",
+            "color": "Warning"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Suite Request",
+            "size": "ExtraLarge",
+            "horizontalAlignment": "Center",
+            "color": "Warning"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Home of the Pragmatic Parrots",
+            "size": "Large",
+            "weight": "Bolder",
+            "horizontalAlignment": "Center",
+            "color": "Accent"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Complete the following fields below to submit a suite request.",
+            "horizontalAlignment": "Center",
+            "weight": "Bolder",
+            "isSubtle": true,
+            "separator": true
+        },
+        {
+            "type": "Input.Text",
+            "id": "groupName",
+            "label": "Company / Group Name",
+            "placeholder": "Enter the company or group name"
+        },
+        {
+            "type": "Input.Text",
+            "id": "requestedDate",
+            "label": "Date Requested",
+            "placeholder": "MM/DD/YYYY"
+        },
+        {
+            "type": "Input.Number",
+            "id": "guestAmount",
+            "label": "Number of Guests",
+            "placeholder": "Total guest count"
+        },
+        {
+            "type": "Input.Toggle",
+            "id": "foodBoolean",
+            "label": "Would you like food?",
+            "title": "Yes"
+        },
+        {
+            "type": "Input.Text",
+            "id": "contactName",
+            "label": "Contact Name",
+            "placeholder": "Enter contact name"
+        },
+        {
+            "type": "Input.Text",
+            "id": "contactEmail",
+            "label": "Contact Email Address",
+            "placeholder": "Enter contact email"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit Request",
+            "data": {
+                "action": "suiteRequestSubmit"
+            }
+        }
+    ]
+}
